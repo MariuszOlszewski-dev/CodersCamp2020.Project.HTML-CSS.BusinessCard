@@ -1,3 +1,126 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(187, 220, 223);
+    font-size: 16px;
+}
+#box{
+    margin-left: auto;
+    margin-right: auto;
+}
+header > h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.anim{
+    background-image: url(bmp/cursor.bmp);
+    width: 25px;
+    height: 28px;
+    position: relative;
+    animation: arrow 3s 2 2s;
+    bottom: 30%;
+    left: 60%;
+
+}
+@keyframes arrow{
+    0%{bottom:30%; left:60%;}
+    50%{bottom:53.5%; left:53.25%;}
+    100%{bottom:30%; left:60%;}
+
+}
+.cloud{
+    text-decoration: none;
+}
+div.content{
+    background-size: cover;
+    width: 815px;
+    height: 275px;
+    margin: auto;
+    position: relative;
+}
+div.description{
+    color:  black;
+
+}
+.question{
+    text-align: center;
+    font-size: 1.5rem;   
+    position: absolute;
+    display: block;
+    left:15%;
+    bottom: 40%;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+.description:hover .question {
+    opacity: 0;
+}
+.answear{
+    text-align: center;
+    font-size: 1.5rem;
+    position: absolute;
+    display: block;
+    left:0;
+    bottom: 35%; 
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+.description:hover .answear {
+    opacity: 1;
+}
+nav{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+
+}
+.about{
+    text-align: center;
+    transition: scale .5s ease-in-out;
+    cursor: pointer;
+}
+.about:hover{
+    scale: 1.2;
+}
+.offer{
+    text-align: center;
+    transition: scale .5s ease-in-out;
+    cursor: pointer;
+}
+.offer:hover{
+    scale: 1.2;
+}    
+.projects{
+    text-align: center;
+    transition: scale .5s ease-in-out;
+    z-index: 10;
+    cursor: pointer;
+}
+.projects:hover{
+    scale: 1.2;
+}
+.contact{
+    text-align: center;
+    transition: scale .5s ease-in-out;
+    cursor: pointer;
+}
+.contact:hover{
+    scale: 1.2;
+}
+.motto{
+    background-color: rgb(187, 220, 223);
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+    padding: 0rem;
+    width: 50%;
+    height: auto;
+    color: rgb(92, 91, 91);
+}
+.motto > p{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 1rem;
+}
+.footer > p{
+    text-align: center;
 }
