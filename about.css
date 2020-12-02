@@ -25,6 +25,7 @@ header > h1{
     left: 12%;
     bottom: 83%;
     width: 80%;
+    text-align: justify;
 }
 nav{
     font-size: 1.3rem;
