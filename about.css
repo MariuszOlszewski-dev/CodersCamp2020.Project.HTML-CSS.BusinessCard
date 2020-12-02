@@ -12,26 +12,6 @@ header > h1{
     font-weight: 700;
     text-align: center;
 }
-.anim{
-    background-image: url(bmp/cursor.bmp);
-    width: 25px;
-    height: 28px;
-    position: relative;
-    animation: arrow 2s 1 .5s;
-    bottom: 30%;
-    left: 60%;
-    opacity: 0;
-
-}
-@keyframes arrow{
-    0%{bottom:30%; left:60%;opacity: 1;}
-    50%{bottom:53.5%; left:55%;opacity: 1;}
-    100%{bottom:30%; left:60%;opacity: 1;}
-
-}
-.cloud{
-    text-decoration: none;
-}
 .content{
     background-size: cover;
     width: 815px;
@@ -39,35 +19,12 @@ header > h1{
     margin: auto;
     position: relative;
 }
-.description{
-    color:  black;
-
-}
-.question{
-    text-align: center;
-    font-size: 1.5rem;   
-    position: absolute;
+.me{
+    position: relative;
     display: block;
-    left:15%;
-    bottom: 40%;
-    opacity: 1;
-    transition: opacity 1s ease-in-out;
-}
-.description:hover .question {
-    opacity: 0;
-}
-.answear{
-    text-align: center;
-    font-size: 1.5rem;
-    position: absolute;
-    display: block;
-    left:0;
-    bottom: 35%; 
-    opacity: 0;
-    transition: opacity 1.5s ease-in-out;
-}
-.description:hover .answear {
-    opacity: 1;
+    left: 12%;
+    bottom: 83%;
+    width: 80%;
 }
 nav{
     font-size: 1.3rem;
