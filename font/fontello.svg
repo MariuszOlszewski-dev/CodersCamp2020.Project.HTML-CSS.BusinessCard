@@ -6,7 +6,7 @@
 <font id="fontello" horiz-adv-x="1000" >
 <font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
 <missing-glyph horiz-adv-x="1000" />
-<glyph glyph-name="mobile" unicode="&#xe800;" d="M480 840q42 0 71-29t29-71l0-780q0-40-29-70t-71-30l-380 0q-40 0-70 30t-30 70l0 780q0 42 30 71t70 29l380 0z m-190-940q30 0 50 15t20 35q0 22-20 36t-50 14q-28 0-49-15t-21-35 21-35 49-15z m210 150l0 660-420 0 0-660 420 0z" horiz-adv-x="580" />
+<glyph glyph-name="mobile" unicode="&#xe800;" d="M238-31c27 0 47 23 47 48 0 27-20 47-47 47s-48-20-48-47c0-25 20-48 48-48z m-154 794l307 0c50 0 84-34 84-81l0-670c0-42-34-75-75-75l-325 0c-41 0-75 33-75 75l0 670c0 47 34 81 84 81z m91-54c-9 0-15-7-15-16s6-16 15-16l125 0c9 0 15 7 15 16s-6 16-15 16l-125 0z m255-607l0 496-385 0 0-496 385 0z" horiz-adv-x="475" />
 
 <glyph glyph-name="laptop" unicode="&#xe802;" d="M0 47l0 88 1000 0 0-88-51-52-898 0z m100 135l0 524 800 0 0-524-800 0z m99 96l602 0 0 334-602 0 0-334z m209-252l184 0 0 80-184 0 0-80z" horiz-adv-x="1000" />
 

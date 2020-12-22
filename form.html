@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>CodersCamp | Projekt 1 - HTML i CSS</title>
+    <meta name="description" content="CodersCamp to darmowy, otwarty kurs programowania webowego we Wrocławiu. Sprawdź, czego nauczysz się na CodersCamp i spróbuj swoich sił w branży IT!">
+    <meta name="keywords" content="zamów, stronę, tworzenie, www, programista, portfolio, web, dev, html, css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel='stylesheet' href="form.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap" rel="stylesheet"> 
+   
+</head>
+
+<body>
+    <div class="box">
+        <header>
+            <h1>Kompleksowe wykonanie aplikacji webowych</h1>
+        </header>
+        <main>
+            <form action="index.html" method="POST">
+                <input type="text" name="imie" placeholder="Podaj swoje imię" required>
+                <input type="text" name="nazwisko" placeholder="Podaj swoje nazwisko" required>
+                <input type="email" name="adres" placeholder="Podaj adres e-mail" required>
+                <input type="tel" name="telefon" placeholder="Podaj numer telefonu 123-123-123" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <textarea name="komentarz" class="komentarz" rows="10" cols="60" placeholder="Tutaj wpisz treść zlecenia"></textarea>
+                <input class="btn" type="submit" value="Zamawiam!">
+                <input class="btn" type="reset" value="Wyczyść formularz">
+            </form>
+            <div class="motto">
+                <p><i>Prostota jest szczytem wyrafinowania.</i> - Leonardo da Vinci<p>
+            </div>
+        </main>
+        <footer>
+            2020 &copy;Mariusz Olszewski - Portfolio. Programista webowy zaprasza do współpracy!
+        </footer>
+    </div>
+</body>
+</html>

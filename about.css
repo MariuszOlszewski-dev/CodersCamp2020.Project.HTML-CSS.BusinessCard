@@ -1,36 +1,64 @@
+@media (max-width: 600px) {
+    .nav{
+        width: 100%;
+    }
+    .about{
+        width: 50%;
+    }
+    .offer{
+        width: 50%;
+    }
+    .projects{
+        width: 50%;
+    }
+    .contact{
+        width: 50%;
+    }
+}
 body{
     background-color: rgb(187, 220, 223);
     font-size: 16px;
-    font-family: 'Signika', sans-serif;
+    font-family: 'Signika', sans-serif; 
 }
-#box{
-    margin-left: auto;
-    margin-right: auto;
+
+.box{
+    display: grid;
+    justify-content: stretch;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    width: 100%;
+    height: 100%;
+}
+header{
+    grid-column: span 2; 
+}
+main{
+    grid-column: span 2;
+    grid-row: 2 / span 3; 
+}
+footer{
+    grid-column: span 2;
+    place-self: center;
 }
 header > h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     text-align: center;
 }
 .content{
-    background-size: cover;
-    width: 815px;
-    height: 275px;
-    margin: auto;
-    position: relative;
-}
-.me{
-    position: relative;
-    display: block;
-    left: 12%;
-    bottom: 83%;
-    width: 80%;
+    padding: 2.65rem;
     text-align: justify;
+    text-align-last: center;
+}
+.content .me{
+    font-size: 1.2rem;
 }
 nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-size: 1.3rem;
     font-weight: 700;
-    display: flex;
     justify-content: space-around;
     padding-top: 2rem;
 }
@@ -40,52 +68,50 @@ nav a{
 }
 .about{
     text-align: center;
-    transition: scale .5s ease-in-out;
+    transition: all .5s ease-in-out;
     cursor: pointer;
+    padding-top: 1rem;
 }
 .about:hover{
-    scale: 1.2;
+    transform: scale(1.2);
 }
 .offer{
     text-align: center;
-    transition: scale .5s ease-in-out;
+    transition: all .5s ease-in-out;
     cursor: pointer;
+    padding-top: 1rem;
 }
 .offer:hover{
-    scale: 1.2;
+    transform: scale(1.2);
 }    
 .projects{
     text-align: center;
-    transition: scale .5s ease-in-out;
-    z-index: 10;
+    transition: all .5s ease-in-out;
     cursor: pointer;
+    padding-top: 1rem;
 }
 .projects:hover{
-    scale: 1.2;
+    transform: scale(1.2);
 }
 .contact{
     text-align: center;
-    transition: scale .5s ease-in-out;
+    transition: all .5s ease-in-out;
     cursor: pointer;
+    padding-top: 1rem;
 }
 .contact:hover{
-    scale: 1.2;
+    transform: scale(1.2);
 }
 .motto{
     background-color: rgb(187, 220, 223);
     margin-left: auto;
     margin-right: auto;
     border: 0px;
-    padding: 0rem;
+    padding: 2rem;
     width: 50%;
-    height: auto;
     color: rgb(92, 91, 91);
 }
 .motto > p{
     font-size: 1.3rem;
-    text-align: center;
-    padding: 1rem;
-}
-.footer > p{
     text-align: center;
 }

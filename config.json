@@ -7,16 +7,16 @@
   "ascent": 850,
   "glyphs": [
     {
+      "uid": "m3m8301t2xdy30x4lp7txm0vztl67tcl",
+      "css": "mobile",
+      "code": 59392,
+      "src": "modernpics"
+    },
+    {
       "uid": "949f56916cd9c4f45ef76cc604f02e2e",
       "css": "laptop",
       "code": 59394,
       "src": "elusive"
-    },
-    {
-      "uid": "767fede84586366cd7d6c835be745454",
-      "css": "mobile",
-      "code": 59392,
-      "src": "entypo"
     },
     {
       "uid": "c710cda53f5e1f8705865d453b7f323f",

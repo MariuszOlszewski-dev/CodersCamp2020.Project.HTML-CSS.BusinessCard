@@ -1,13 +1,13 @@
 Font license info
 
 
-## Entypo
+## Modern Pictograms
 
-   Copyright (C) 2012 by Daniel Bruce
+   Copyright (c) 2012 by John Caserta. All rights reserved.
 
-   Author:    Daniel Bruce
+   Author:    John Caserta
    License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://www.entypo.com
+   Homepage:  http://thedesignoffice.org/project/modern-pictograms/
 
 
 ## Elusive
