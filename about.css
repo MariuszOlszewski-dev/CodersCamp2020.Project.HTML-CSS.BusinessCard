@@ -38,7 +38,8 @@ main{
 }
 footer{
     grid-column: span 2;
-    place-self: center;
+    text-align: center;
+    grid-row: 6;
 }
 header > h1{
     font-size: 2rem;
