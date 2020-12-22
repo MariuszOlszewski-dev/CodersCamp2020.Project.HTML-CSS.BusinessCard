@@ -17,6 +17,6 @@ Docelowym odbiorcą projektu są osoby poszukujące kogoś, kto zaprojektuje i s
 - Formularz
 - RWD
 
-## Author
+## Autor
 
 Mariusz Olszewski
